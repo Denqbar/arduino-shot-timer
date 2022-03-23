@@ -253,7 +253,7 @@ LightChrono g_shot_chrono;
 // However, you can connect other I2C sensors to the I2C bus and share
 // the I2C bus.
 //Adafruit_RGBLCDShield g_lcd = Adafruit_RGBLCDShield();
-// Pin 9 and 10 have to be freed fpr ToneAC -> testing
+// Pin 9 and 10 have to be remapped for ToneAC -> testing
 LiquidCrystal g_lcd(8, 9, 4, 5, 6, 7);
 
 
