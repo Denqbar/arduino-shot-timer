@@ -102,10 +102,10 @@
 // ~/Documents/Arduino/Libraries
 //////////////////////////////
 
-// toneAC
+// toneAC2
 // Bit-Bang tone library for piezo buzzer 
 // https://bitbucket.org/teckel12/arduino-toneac/wiki/Home#!difference-between-toneac-and-toneac2
-#include <toneAC.h>
+#include <toneAC2.h>
 
 //////////////////////////////
 // Other helpful resources
