@@ -102,10 +102,10 @@
 // ~/Documents/Arduino/Libraries
 //////////////////////////////
 
-// toneAC2
+// toneAC
 // Bit-Bang tone library for piezo buzzer 
 // https://bitbucket.org/teckel12/arduino-toneac/wiki/Home#!difference-between-toneac-and-toneac2
-#include <toneAC2.h>
+#include <toneAC.h>
 
 //////////////////////////////
 // Other helpful resources
@@ -253,6 +253,7 @@ LightChrono g_shot_chrono;
 // However, you can connect other I2C sensors to the I2C bus and share
 // the I2C bus.
 //Adafruit_RGBLCDShield g_lcd = Adafruit_RGBLCDShield();
+// Pin 9 and 10 have to be freed fpr ToneAC -> testing
 LiquidCrystal g_lcd(8, 9, 4, 5, 6, 7);
 
 
